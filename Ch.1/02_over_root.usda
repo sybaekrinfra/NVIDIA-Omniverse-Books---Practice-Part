@@ -1,8 +1,0 @@
-#usda 1.0
-(
-    defaultPrim = "World"
-    subLayers = [
-        @./02b_over_override.usda@,
-        @./02a_over_base.usda@
-    ]
-)
