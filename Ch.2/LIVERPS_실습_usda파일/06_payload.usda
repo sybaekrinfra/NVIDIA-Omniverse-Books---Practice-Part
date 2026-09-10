@@ -1,0 +1,9 @@
+#usda 1.0
+def Xform "World"
+{
+    def Cube "Cube" (
+        prepend payload = @./source_payload.usda@
+    )
+    {
+    }
+}
