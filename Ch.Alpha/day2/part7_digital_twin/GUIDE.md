@@ -16,7 +16,7 @@
 
 ## 따라하기
 
-1. 03 장면을 열고 Timeline Stop, 00 실행을 확인합니다.
+1. 03 장면을 열고 Timeline Stop 상태를 확인합니다.
 2. CSV를 열어 각 행의 예상 상태를 기록합니다. 80°C 경계와 7mm/s 경계가 포함되어 있습니다.
 3. 05를 실행합니다. 0~7초 간격으로 표시구가 녹색→주황→빨강→녹색으로 바뀌는지 봅니다.
 4. `/World/Equipment`의 `training:state`, `training:temperature_c`, `training:vibration_mm_s`, `training:source`를 확인합니다. Custom 속성 표시가 없으면 Console 출력을 확인합니다.

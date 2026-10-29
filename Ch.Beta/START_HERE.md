@@ -163,3 +163,11 @@ bash scripts/04_play_joint_states.sh bag/real_robot_motion /robot/joint_states
 - Isaac Sim에서 실제 움직임을 확인했는지, 토픽만 확인했는지 구분한다.
 
 공식 참고: [JointState 정의](https://github.com/ros2/common_interfaces/blob/jazzy/sensor_msgs/msg/JointState.msg), [ROS 2 rosbag2](https://github.com/ros2/rosbag2/tree/jazzy). 이 예제의 CLI 옵션은 설치된 Jazzy의 도움말로도 확인했습니다.
+
+## 다른 자료와 함께 사용할 때
+
+- [직접 bag 재생](Apply_Live.md): Python 중계기 없이 기록된 메시지를 명령 토픽으로 보냅니다. QoS 설정도 함께 사용하세요.
+- [Kit-CAE 예제 설명](KIT-CAE.md): 별도 앱과 CAE 샘플 데이터가 필요한 선택 과정입니다.
+- [Alpha와의 재사용 범위](../Ch.Alpha/docs/REUSE.md): Alpha의 1축 팔은 Beta 기본 6축 설정과 바로 연결되지 않습니다.
+
+교육생마다 다른 ROS_DOMAIN_ID를 쓰면 같은 네트워크에서 조별 명령이 섞이는 것을 피할 수 있습니다. 각 조의 Isaac Sim과 터미널에는 같은 값을 설정하고, 서로 다른 조에는 다른 값을 지정하세요. 외부 로봇을 연결할 때는 해당 드라이버의 통신 설정에 맞춥니다.

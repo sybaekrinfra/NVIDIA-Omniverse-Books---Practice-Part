@@ -1,0 +1,6 @@
+# 키는 remap 전 bag에 기록된 토픽 이름입니다. 실제 기록 이름에 맞춰 변경하세요.
+/demo_robot/joint_states:
+  reliability: reliable
+  durability: volatile
+  history: keep_last
+  depth: 10

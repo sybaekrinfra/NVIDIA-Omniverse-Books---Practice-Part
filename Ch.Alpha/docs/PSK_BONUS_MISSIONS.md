@@ -4,7 +4,7 @@
 
 ## 미션 A · 생산 공간 검토 (10분, 코드 작성 없음)
 
-- 시작: `05_layout_variants.usda`, 00 → `07_layout_variant.py`.
+- 시작: `05_layout_variants.usda`, `07_layout_variant.py`.
 - 파일의 Variant 선택값을 compact/wide로 바꾸어 두 배치를 비교합니다.
 - 완료: 두 화면과 “작업자 통로 / 설비 간격 중 무엇을 더 확인해야 하는가?” 한 문장.
 - 복구: 체크포인트 재열기. 간격이 넓다고 안전 규격을 충족한다고 단정하지 않습니다.
@@ -18,7 +18,7 @@
 
 ## 미션 C · 정상 수치인데 왜 회색일까? (20분)
 
-- 시작: `08_multi_equipment.usda`, 00 → `10_multi_equipment.py` 실행.
+- 시작: `08_multi_equipment.usda`, `10_multi_equipment.py` 실행.
 - 2초 E03의 UNKNOWN, 6초 E02의 STALE을 출력 또는 `outputs/multi_equipment_report.csv`에서 찾습니다. 화면 변화가 빠르면 CSV를 기준으로 기록합니다.
 - CSV에서 빈 값과 sample_time_s를 확인합니다. 수치를 0으로 임의 채우지 않습니다.
 - 완료: 총 12행, 마지막 E01=NORMAL/E02=STALE/E03=ALARM을 기록하고 “운영상태와 데이터 신선도를 분리해야 하는 이유”를 설명합니다.

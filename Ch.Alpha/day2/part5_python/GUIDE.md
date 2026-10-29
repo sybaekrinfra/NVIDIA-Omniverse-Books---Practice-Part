@@ -1,6 +1,6 @@
 # Day 2 Part 5 · Script Editor와 Python API
 
-배정 60분: 설명 30분, 실습 30분. 입력: `03_physics.usda`, scripts 00, 01, 03.
+배정 60분: 설명 30분, 실습 30분. 입력: `03_physics.usda`, scripts 01, 03.
 
 ## Python 초급 안내
 
@@ -8,13 +8,13 @@
 
 ## 따라하기
 
-1. 03 체크포인트를 엽니다. 00의 ROOT를 확인하고 실행합니다.
+1. 03 체크포인트를 엽니다. 01 스크립트를 바로 실행합니다.
 2. 01을 실행하여 출력된 경로·단위·축을 기록합니다.
 3. 다음 코드를 Script Editor에서 실행합니다.
 
 ```python
-from cbnu_lab import current_stage
-s = current_stage()
+import omni.usd
+s = omni.usd.get_context().get_stage()
 p = s.GetPrimAtPath("/World/Workpiece")
 print(p.GetAttribute("xformOp:translate").Get())
 print(p.GetAttribute("physics:mass").Get())

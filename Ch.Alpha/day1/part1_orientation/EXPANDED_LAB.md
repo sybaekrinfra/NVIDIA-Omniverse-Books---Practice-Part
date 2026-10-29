@@ -4,7 +4,7 @@
 
 ## 상황과 목표
 
-**장비 데이터의 역할 구분**을 수행합니다. 시작 파일은 `checkpoints/01_layout.usda`입니다. Python 예제는 Script Editor에서 `00_start_here.py`를 먼저 실행합니다. 원본 체크포인트는 저장하지 않고 결과를 outputs에 보관합니다.
+**장비 데이터의 역할 구분**을 수행합니다. 시작 파일은 `checkpoints/01_layout.usda`입니다. Python 예제는 해당 파일 전체를 Script Editor에서 바로 실행합니다. 원본 체크포인트는 저장하지 않고 결과를 outputs에 보관합니다.
 
 ## 가이드 실습
 

@@ -4,12 +4,12 @@
 
 ## 상황과 목표
 
-**compact와 wide 배치 검토**을 수행합니다. 시작 파일은 `checkpoints/05_layout_variants.usda`입니다. Python 예제는 Script Editor에서 `00_start_here.py`를 먼저 실행합니다. 원본 체크포인트는 저장하지 않고 결과를 outputs에 보관합니다.
+**compact와 wide 배치 검토**을 수행합니다. 시작 파일은 `checkpoints/05_layout_variants.usda`입니다. Python 예제는 해당 파일 전체를 Script Editor에서 바로 실행합니다. 원본 체크포인트는 저장하지 않고 결과를 outputs에 보관합니다.
 
 ## 가이드 실습
 
 1. 기존 review/assembly 예제로 원본과 색 override를 확인한다.
-2. 05를 열고 00_start_here.py를 실행한다.
+2. 05를 열고 Script Editor를 연다.
 3. 07_layout_variant.py에서 compact와 wide를 각각 선택한다.
 4. Tray_1과 Tray_3의 X 차이를 비교한다. compact=0.9m, wide=1.7m이다.
 5. 같은 자산을 복사하지 않고 배치 선택을 보관하는 이점을 적는다.

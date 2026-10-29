@@ -28,7 +28,7 @@ def Xform "World"
     }
 
     def Xform "Arm" (
-        prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI"]
+        prepend apiSchemas = ["PhysicsRigidBodyAPI", "PhysicsMassAPI", "PhysicsArticulationRootAPI"]
     )
     {
         float physics:mass = 1
@@ -47,7 +47,7 @@ def Xform "World"
     }
 
     def PhysicsRevoluteJoint "Hinge" (
-        prepend apiSchemas = ["PhysicsArticulationRootAPI", "PhysicsDriveAPI:angular"]
+        prepend apiSchemas = ["PhysicsDriveAPI:angular"]
     )
     {
         float drive:angular:physics:damping = 10

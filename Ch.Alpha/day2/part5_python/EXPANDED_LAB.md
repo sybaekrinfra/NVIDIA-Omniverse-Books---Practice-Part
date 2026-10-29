@@ -4,11 +4,11 @@
 
 ## 상황과 목표
 
-**6개에서 12개 작업물로 확장**을 수행합니다. 시작 파일은 `checkpoints/07_batch_layout.usda`입니다. Python 예제는 Script Editor에서 `00_start_here.py`를 먼저 실행합니다. 원본 체크포인트는 저장하지 않고 결과를 outputs에 보관합니다.
+**6개에서 12개 작업물로 확장**을 수행합니다. 시작 파일은 `checkpoints/07_batch_layout.usda`입니다. Python 예제는 해당 파일 전체를 Script Editor에서 바로 실행합니다. 원본 체크포인트는 저장하지 않고 결과를 outputs에 보관합니다.
 
 ## 가이드 실습
 
-1. 00 후 09_batch_layout.py를 실행하여 2행×3열=6개를 확인한다.
+1. 09_batch_layout.py를 실행하여 2행×3열=6개를 확인한다.
 2. ROWS=3, COLUMNS=4, SPACING_M=0.45로 바꾼다.
 3. 다시 실행해 12개인지 확인한다. 이전 배열이 남지 않는다.
 4. 경로와 training:part_id가 중복되지 않는지 확인한다.

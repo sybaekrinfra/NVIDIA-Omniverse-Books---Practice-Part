@@ -9,3 +9,7 @@
 - [자료 출처](docs/SOURCES.md)
 
 기존 과정의 단계별 안내는 day1/day2 각 폴더의 GUIDE.md, 확장 활동은 EXPANDED_LAB.md에 있습니다. checkpoints와 shared의 상대 위치를 유지하세요. 결과는 outputs에 보관합니다.
+
+각 Python 예제는 Script Editor에서 파일 전체를 독립 실행합니다. 00 초기화와 shared Python 모듈 등록은 필요 없습니다. 결과 저장은 `scripts/13_save_result.py`, 비동기 작업 중단은 `scripts/06_stop_tasks.py`를 사용하세요.
+
+다른 장면·Ch.Beta와 함께 사용할 때는 [재사용 범위와 실행 환경](docs/REUSE.md)을 먼저 확인하세요.

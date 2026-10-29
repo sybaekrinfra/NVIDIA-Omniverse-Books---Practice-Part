@@ -4,7 +4,7 @@
 
 ## 상황과 목표
 
-**A/B/C 낙하 가설 세우기**을 수행합니다. 시작 파일은 `checkpoints/06_physics_comparison.usda`입니다. Python 예제는 Script Editor에서 `00_start_here.py`를 먼저 실행합니다. 원본 체크포인트는 저장하지 않고 결과를 outputs에 보관합니다.
+**A/B/C 낙하 가설 세우기**을 수행합니다. 시작 파일은 `checkpoints/06_physics_comparison.usda`입니다. Python 예제는 해당 파일 전체를 Script Editor에서 바로 실행합니다. 원본 체크포인트는 저장하지 않고 결과를 outputs에 보관합니다.
 
 ## 가이드 실습
 

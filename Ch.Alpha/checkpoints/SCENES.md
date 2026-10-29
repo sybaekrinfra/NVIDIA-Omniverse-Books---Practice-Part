@@ -20,12 +20,9 @@
 
 원본 CAD USD에는 관절·강체·충돌 설정이 들어 있습니다. 01 장면의 local override에서 해당 API를 제거하고 Joint Prim을 비활성화하여 장비를 시각 참조로만 사용합니다. 원본 CAD USD는 변경하지 않았습니다. CAD를 직접 Open한 화면과 공통 장면의 물리 설정은 다릅니다.
 
-체크포인트 전체와 `shared`의 상대 위치를 유지하세요. 배포 원본을 수정했다면 Git 복구 또는 배포본 재복사 후 엽니다. 결과를 보존하려면 Script Editor에서 다음을 실행합니다.
+체크포인트 전체와 `shared`의 상대 위치를 유지하세요. 배포 원본을 수정했다면 Git 복구 또는 배포본 재복사 후 엽니다. 결과를 보존하려면 Script Editor에서 `scripts/13_save_result.py`를 실행합니다.
 
-```python
-from cbnu_lab import current_stage, save_result
-save_result(current_stage(), "day1_result.usda")
-```
+`scripts/13_save_result.py`의 `FILE_NAME`을 수정한 뒤 파일 전체를 실행하세요.
 
 이는 의존 경로 없이 열 수 있는 **Flatten 제출본**입니다. Layer·Reference 구조는 체크포인트 원본에 유지됩니다. 협업 제출에는 Flatten 대신 저장소 내 원래 폴더 구조를 함께 보관합니다.
 
