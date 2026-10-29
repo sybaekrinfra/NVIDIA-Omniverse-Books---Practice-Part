@@ -29,7 +29,7 @@
 
 제출: 팀별 역할표, 합성 결과 화면, 상대 경로 패키지, 원본과 override의 차이. 협업 폴더를 통째로 다른 위치로 복사한 뒤 재열기까지 확인합니다.
 
-오늘의 공통 장면 결과는 `checkpoints/README.md`의 저장 코드로 `outputs/day1_result.usda`에 저장할 수 있습니다.
+오늘의 공통 장면 결과는 `checkpoints/SCENES.md`의 저장 코드로 `outputs/day1_result.usda`에 저장할 수 있습니다.
 
 ## 확장 실습
 

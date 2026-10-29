@@ -17,7 +17,7 @@ Ch.7/   Isaac Lab 설치 및 강화학습(RL) 실습
 
 ### Ch.Alpha — 실습 중심 워크숍
 
-[워크숍 시작](Ch.Alpha/README.md) · [PSK 강사 운영표](Ch.Alpha/instructor/PSK_DAY2_RUNBOOK.md) · [교육생 실습 가이드](Ch.Alpha/docs/PSK_DAY2_LABS.md)
+[워크숍 시작](Ch.Alpha/START_HERE.md) · [교육생 실습 가이드](Ch.Alpha/docs/PSK_DAY2_LABS.md)
 
 충북대 워크숍 자료와 복구용 USD 장면을 포함하며, PSK 2일차용 GUI 실습·오류 복구·관절 비교·합성 온도 시각화·추가 미션을 제공합니다.
 

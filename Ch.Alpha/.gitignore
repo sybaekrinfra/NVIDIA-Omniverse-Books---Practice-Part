@@ -4,5 +4,7 @@ __pycache__/
 .DS_Store
 Thumbs.db
 outputs/*
-!outputs/README.md
 *.log
+
+# Local instructor / authoring materials; excluded from learner distribution.
+/Agents/
