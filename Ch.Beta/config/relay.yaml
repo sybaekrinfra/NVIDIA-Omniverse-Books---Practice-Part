@@ -1,0 +1,7 @@
+joint_state_to_command:
+  ros__parameters:
+    input_topic: /demo_robot/joint_states
+    output_topic: /joint_command
+    # source의 i번째 이름을 target의 i번째 이름에 대응시킵니다.
+    source_joint_names: [joint1, joint2, joint3, joint4, joint5, joint6]
+    target_joint_names: [joint1, joint2, joint3, joint4, joint5, joint6]

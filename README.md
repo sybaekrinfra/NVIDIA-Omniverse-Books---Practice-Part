@@ -7,6 +7,7 @@ Isaac Sim, ROS 2, Omniverse Replicator, Isaac Lab을 활용한 예제를 포함�
 
 ```
 Ch.Alpha/   비개발자 대상 Omniverse 워크숍 및 PSK 2일차 실습
+Ch.Beta/    ROS 2 관절 상태 기록·rosbag 재생·Isaac Sim 명령 중계
 Ch.2/   Kuka 로봇 USD 장면 실습
 Ch.3/   BX200L 로봇 CAD 및 USD 변환 실습
 Ch.4/   Dofbot 및 Turtiebot 로봇과 ROS 2 연동 실습
@@ -20,6 +21,10 @@ Ch.7/   Isaac Lab 설치 및 강화학습(RL) 실습
 [워크숍 시작](Ch.Alpha/START_HERE.md) · [교육생 실습 가이드](Ch.Alpha/docs/PSK_DAY2_LABS.md)
 
 충북대 워크숍 자료와 복구용 USD 장면을 포함하며, PSK 2일차용 GUI 실습·오류 복구·관절 비교·합성 온도 시각화·추가 미션을 제공합니다.
+
+### Ch.Beta — ROS 2 로봇 관절 기록·재생
+
+[실습 시작](Ch.Beta/START_HERE.md): Ch.5의 JointState 명령 형식으로 모의/실제 관절 상태를 기록하고, rosbag 재생 또는 실시간 중계로 Isaac Sim에 전달합니다.
 
 ### Ch.2 — Kuka 로봇 장면
 
