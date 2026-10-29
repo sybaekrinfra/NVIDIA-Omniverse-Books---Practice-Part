@@ -1,0 +1,16 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    subLayers = [
+        @assembly.usda@
+    ]
+)
+
+over "World"
+{
+    over "ReferencePart"
+    {
+        color3f[] primvars:displayColor = [(1, 0.2, 0.1)]
+    }
+}
+

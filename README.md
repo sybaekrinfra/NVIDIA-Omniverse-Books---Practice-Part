@@ -6,6 +6,7 @@ Isaac Sim, ROS 2, Omniverse Replicator, Isaac Lab을 활용한 예제를 포함�
 ## 저장소 구성
 
 ```
+Ch.Alpha/   비개발자 대상 Omniverse 워크숍 및 PSK 2일차 실습
 Ch.2/   Kuka 로봇 USD 장면 실습
 Ch.3/   BX200L 로봇 CAD 및 USD 변환 실습
 Ch.4/   Dofbot 및 Turtiebot 로봇과 ROS 2 연동 실습
@@ -13,6 +14,12 @@ Ch.5/   Isaac Sim 센서 및 ROS 2 연동 실습
 Ch.6/   Omniverse Replicator를 활용한 합성 데이터셋 생성 실습
 Ch.7/   Isaac Lab 설치 및 강화학습(RL) 실습
 ```
+
+### Ch.Alpha — 실습 중심 워크숍
+
+[워크숍 시작](Ch.Alpha/README.md) · [PSK 강사 운영표](Ch.Alpha/instructor/PSK_DAY2_RUNBOOK.md) · [교육생 실습 가이드](Ch.Alpha/docs/PSK_DAY2_LABS.md)
+
+충북대 워크숍 자료와 복구용 USD 장면을 포함하며, PSK 2일차용 GUI 실습·오류 복구·관절 비교·합성 온도 시각화·추가 미션을 제공합니다.
 
 ### Ch.2 — Kuka 로봇 장면
 

@@ -1,0 +1,19 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @03_physics.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "World"
+{
+    over "Equipment"
+    {
+        float3 xformOp:scale = (0.001, 0.001, 0.001)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+    }
+}
+

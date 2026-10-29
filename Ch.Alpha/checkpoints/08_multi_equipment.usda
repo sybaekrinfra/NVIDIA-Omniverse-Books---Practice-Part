@@ -1,0 +1,100 @@
+#usda 1.0
+(
+    defaultPrim = "World"
+    metersPerUnit = 1
+    subLayers = [
+        @02_structured.usda@
+    ]
+    upAxis = "Z"
+)
+
+over "World"
+{
+    def "Stations"
+    {
+        def Xform "E01"
+        {
+            custom string training:equipment_id = "E01"
+            custom double training:sample_time_s = 0
+            custom string training:source = "SYNTHETIC_MULTI_CSV"
+            custom string training:state = "NORMAL"
+            custom double training:temperature_c = 35
+            custom double training:time_s = 0
+            custom double training:vibration_mm_s = 1
+
+            def Cube "Housing"
+            {
+                color3f[] primvars:displayColor = [(0.65, 0.68, 0.7)]
+                double size = 1
+                float3 xformOp:scale = (0.7, 0.55, 0.8)
+                double3 xformOp:translate = (0.3, -1.5, 0.4)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "Lamp"
+            {
+                color3f[] primvars:displayColor = [(0.05, 0.8, 0.2)]
+                double radius = 0.1
+                double3 xformOp:translate = (0.3, -1.5, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "E02"
+        {
+            custom string training:equipment_id = "E02"
+            custom double training:sample_time_s = 0
+            custom string training:source = "SYNTHETIC_MULTI_CSV"
+            custom string training:state = "NORMAL"
+            custom double training:temperature_c = 45
+            custom double training:time_s = 0
+            custom double training:vibration_mm_s = 2
+
+            def Cube "Housing"
+            {
+                color3f[] primvars:displayColor = [(0.65, 0.68, 0.7)]
+                double size = 1
+                float3 xformOp:scale = (0.7, 0.55, 0.8)
+                double3 xformOp:translate = (1.3, -1.5, 0.4)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "Lamp"
+            {
+                color3f[] primvars:displayColor = [(0.05, 0.8, 0.2)]
+                double radius = 0.1
+                double3 xformOp:translate = (1.3, -1.5, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+
+        def Xform "E03"
+        {
+            custom string training:equipment_id = "E03"
+            custom double training:sample_time_s = 0
+            custom string training:source = "SYNTHETIC_MULTI_CSV"
+            custom string training:state = "NORMAL"
+            custom double training:temperature_c = 40
+            custom double training:time_s = 0
+            custom double training:vibration_mm_s = 1
+
+            def Cube "Housing"
+            {
+                color3f[] primvars:displayColor = [(0.65, 0.68, 0.7)]
+                double size = 1
+                float3 xformOp:scale = (0.7, 0.55, 0.8)
+                double3 xformOp:translate = (2.3, -1.5, 0.4)
+                uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:scale"]
+            }
+
+            def Sphere "Lamp"
+            {
+                color3f[] primvars:displayColor = [(0.05, 0.8, 0.2)]
+                double radius = 0.1
+                double3 xformOp:translate = (2.3, -1.5, 1)
+                uniform token[] xformOpOrder = ["xformOp:translate"]
+            }
+        }
+    }
+}
+

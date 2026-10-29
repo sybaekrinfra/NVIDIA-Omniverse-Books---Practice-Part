@@ -1,0 +1,302 @@
+[
+  {
+    "slide": 1,
+    "part": "COURSE",
+    "title": "Omniverse 실습 워크숍"
+  },
+  {
+    "slide": 2,
+    "part": "COURSE",
+    "title": "2일간의 학습 순서"
+  },
+  {
+    "slide": 3,
+    "part": "D1P1",
+    "title": "장면을 이루는 데이터"
+  },
+  {
+    "slide": 4,
+    "part": "D1P1",
+    "title": "첫 장면 열기"
+  },
+  {
+    "slide": 5,
+    "part": "D1P2",
+    "title": "화면에서 확인하는 세 영역"
+  },
+  {
+    "slide": 6,
+    "part": "D1P2",
+    "title": "선택한 객체와 Prim 경로"
+  },
+  {
+    "slide": 7,
+    "part": "D1P2",
+    "title": "이동·회전·크기 변경"
+  },
+  {
+    "slide": 8,
+    "part": "D1P2",
+    "title": "카메라 이동과 객체 이동 비교"
+  },
+  {
+    "slide": 9,
+    "part": "D1P3",
+    "title": "Stage, Layer, Prim"
+  },
+  {
+    "slide": 10,
+    "part": "D1P3",
+    "title": "공통 장면의 계층"
+  },
+  {
+    "slide": 11,
+    "part": "D1P3",
+    "title": "파일 경로와 Prim 경로"
+  },
+  {
+    "slide": 12,
+    "part": "D1P3",
+    "title": "타입과 속성 읽기"
+  },
+  {
+    "slide": 13,
+    "part": "D1P3",
+    "title": "USD 파일과 자산 전달"
+  },
+  {
+    "slide": 14,
+    "part": "D1P4",
+    "title": "Layer와 편집 대상"
+  },
+  {
+    "slide": 15,
+    "part": "D1P4",
+    "title": "원본 색과 검토 색"
+  },
+  {
+    "slide": 16,
+    "part": "D1P4",
+    "title": "Reference로 자산 재사용"
+  },
+  {
+    "slide": 17,
+    "part": "D1P4",
+    "title": "Payload의 로드와 언로드"
+  },
+  {
+    "slide": 18,
+    "part": "D1P4",
+    "title": "배치 대안을 Variant로 보관"
+  },
+  {
+    "slide": 19,
+    "part": "D1P4",
+    "title": "배치 선택과 변경 의견 확인"
+  },
+  {
+    "slide": 20,
+    "part": "D1P5",
+    "title": "CAD에서 장면까지"
+  },
+  {
+    "slide": 21,
+    "part": "D1P5",
+    "title": "단위 표기와 실제 크기"
+  },
+  {
+    "slide": 22,
+    "part": "D1P5",
+    "title": "Measure로 확인할 값"
+  },
+  {
+    "slide": 23,
+    "part": "D1P5",
+    "title": "Section으로 내부 구조 보기"
+  },
+  {
+    "slide": 24,
+    "part": "D1P5",
+    "title": "Pivot과 회전 중심"
+  },
+  {
+    "slide": 25,
+    "part": "D1P6",
+    "title": "Layer별 담당 역할"
+  },
+  {
+    "slide": 26,
+    "part": "D1P6",
+    "title": "Nucleus에서 확인할 것"
+  },
+  {
+    "slide": 27,
+    "part": "D1P6",
+    "title": "두 사람이 하나의 장면 검토"
+  },
+  {
+    "slide": 28,
+    "part": "D1P6",
+    "title": "첫날 결과 점검"
+  },
+  {
+    "slide": 29,
+    "part": "DAY 2",
+    "title": "물리 설정과 Python 자동화"
+  },
+  {
+    "slide": 30,
+    "part": "D2P1",
+    "title": "이번 실험의 준비 조건"
+  },
+  {
+    "slide": 31,
+    "part": "D2P1",
+    "title": "준비도 결과 읽기"
+  },
+  {
+    "slide": 32,
+    "part": "D2P1",
+    "title": "설정 전후를 진단표로 비교"
+  },
+  {
+    "slide": 33,
+    "part": "D2P2",
+    "title": "시각 장비와 동적 작업물"
+  },
+  {
+    "slide": 34,
+    "part": "D2P2",
+    "title": "원본과 수업 장면의 차이"
+  },
+  {
+    "slide": 35,
+    "part": "D2P2",
+    "title": "역할별 Hierarchy 검토"
+  },
+  {
+    "slide": 36,
+    "part": "D2P3",
+    "title": "물리 속성의 역할"
+  },
+  {
+    "slide": 37,
+    "part": "D2P3",
+    "title": "A, B, C의 초기 조건"
+  },
+  {
+    "slide": 38,
+    "part": "D2P3",
+    "title": "자유낙하에서 예상할 결과"
+  },
+  {
+    "slide": 39,
+    "part": "D2P3",
+    "title": "예측한 뒤 Play"
+  },
+  {
+    "slide": 40,
+    "part": "D2P4",
+    "title": "강체와 충돌 설정"
+  },
+  {
+    "slide": 41,
+    "part": "D2P4",
+    "title": "증상에서 설정 찾기"
+  },
+  {
+    "slide": 42,
+    "part": "D2P4",
+    "title": "바닥 통과 오류 복구"
+  },
+  {
+    "slide": 43,
+    "part": "D2P5",
+    "title": "Python을 읽는 순서"
+  },
+  {
+    "slide": 44,
+    "part": "D2P5",
+    "title": "Stage에서 값 읽기"
+  },
+  {
+    "slide": 45,
+    "part": "D2P5",
+    "title": "조건을 변수로 바꾸기"
+  },
+  {
+    "slide": 46,
+    "part": "D2P5",
+    "title": "반복 배치의 기본 구조"
+  },
+  {
+    "slide": 47,
+    "part": "D2P5",
+    "title": "6개 작업물을 12개로 배치"
+  },
+  {
+    "slide": 48,
+    "part": "D2P6",
+    "title": "반복 실험의 실행 순서"
+  },
+  {
+    "slide": 49,
+    "part": "D2P6",
+    "title": "UI를 멈추지 않는 대기"
+  },
+  {
+    "slide": 50,
+    "part": "D2P6",
+    "title": "실행 로그가 말해 주는 것"
+  },
+  {
+    "slide": 51,
+    "part": "D2P6",
+    "title": "두 조건 실행과 결과 확인"
+  },
+  {
+    "slide": 52,
+    "part": "D2P7",
+    "title": "장비 상태를 표시하는 데이터"
+  },
+  {
+    "slide": 53,
+    "part": "D2P7",
+    "title": "상태 판정 규칙"
+  },
+  {
+    "slide": 54,
+    "part": "D2P7",
+    "title": "가상 온도와 판정 경계"
+  },
+  {
+    "slide": 55,
+    "part": "D2P7",
+    "title": "여러 장비에서 만나는 데이터 문제"
+  },
+  {
+    "slide": 56,
+    "part": "D2P7",
+    "title": "세 장비의 상태 재생"
+  },
+  {
+    "slide": 57,
+    "part": "D2P7",
+    "title": "선택 실습: 온도 분포 비교"
+  },
+  {
+    "slide": 58,
+    "part": "D2P7",
+    "title": "팀별 미니 프로젝트"
+  },
+  {
+    "slide": 59,
+    "part": "REVIEW",
+    "title": "최종 결과의 검토 기준"
+  },
+  {
+    "slide": 60,
+    "part": "REVIEW",
+    "title": "제출 파일과 다음 단계"
+  }
+]

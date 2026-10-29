@@ -1,0 +1,9 @@
+#usda 1.0
+def Xform "World"
+{
+    def Cube "Cube" (
+        prepend references = @./source_reference.usda@
+    )
+    {
+    }
+}
