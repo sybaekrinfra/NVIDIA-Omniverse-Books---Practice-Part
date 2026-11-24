@@ -1,14 +1,15 @@
 ./isaaclab.sh -p -c "
 import sys
-import torch
-import torchvision
-import lazy_loader
 from importlib.metadata import version
 
-print(sys.executable)
-print('isaacsim', version('isaacsim'))
-print('torch', torch.__version__)
-print('torchvision', torchvision.__version__)
+print('Python:', sys.executable)
+print('Python version:', sys.version)
+
+for pkg in ['isaacsim', 'isaaclab', 'torch', 'torchvision', 'lazy_loader']:
+    try:
+        print(pkg, version(pkg))
+    except Exception as e:
+        print(pkg, type(e).__name__, str(e))
 "
 
 ./isaaclab.sh -p \
