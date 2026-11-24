@@ -1,4 +1,4 @@
-cd ~/IsaacLab
+cd $HOME/IsaacLab
 source env_isaaclab/bin/activate
 ./isaaclab.sh play --rl_library rsl_rl \
   --task=Isaac-Cartpole-Direct-v0 \
